@@ -33,7 +33,7 @@ function App() {
         if(allProducts){
             setProducts(allProducts.filter(x=> x.type===productsType));
         }
-    }, [productsType])
+    }, [allProducts, productsType])
 
   return (
     <Container>
