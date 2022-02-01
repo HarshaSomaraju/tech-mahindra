@@ -7,11 +7,12 @@ export default function ProductCard(props) {
     // console.log('product');
     // console.log(product);
 
+
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345}} >
             <CardMedia
                 component="img"
-                height="140"
+                height="300"
                 image={product.imageLink}
                 alt={product.name}
             />

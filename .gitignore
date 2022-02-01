@@ -4,6 +4,8 @@ DeployedLink.txt
 source-code.zip
 tech-mahindra.zip
 
+.env
+
 # dependencies
 /node_modules
 /.pnp
