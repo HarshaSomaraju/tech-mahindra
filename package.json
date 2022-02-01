@@ -29,7 +29,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && npm run build"
   },
   "engines": {
-    "node": "10.15.3"
+    "node": "14.16.1"
   },
   "eslintConfig": {
     "extends": [
